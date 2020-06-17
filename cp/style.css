@@ -1,0 +1,131 @@
+.img1123{
+    border-radius:10vh;
+    height:20vh;
+    width:20vh;
+}
+.img1313{
+    height:auto;
+    max-height:100vh;
+    width:50vh;
+}
+.logo1123{
+    margin-left: 0vh;
+    /*border-radius:10vh;/*Нахрена ему 10px?*/
+    height:10vh;
+    width:auto; 
+    background-color:#94A4A4;
+}
+.logo2123{
+    border-radius:10vh;/*Нахрена ему 10px?*/
+    height:8vh;
+    width:8vh; 
+    background-color:#94A4A4;
+}
+.btn123{
+    font-size:2vh;
+    /*font-size:2vh;
+    background:#7D8B8C;*/
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    margin-top:2%;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.btn123:hover {background: rgba(255,255,255,.2);}
+.btn123:active {
+ background: white; 
+}
+.small_btn123{
+    font-size:2vh;
+    background:#303030;
+    color: white;
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.video{
+    height:30vh;
+    width:50vh;
+}
+
+table{
+    border-collapse:collapse;
+}
+/*.link{
+    text-decoration:none;
+    color:#222034;
+}*/
+.imgchat{
+    height:30vh;
+    width:50vh;
+}
+.okno123{
+    background-color:black;
+}
+
+@media (max-width: 700px) {
+.img1123{
+    border-radius:10vh;
+    height:20vh;
+    width:20vh;
+}
+.logo1123{
+    margin-left: 0vh;
+    /*border-radius:10vh;/*Нахрена ему 10px?*/
+    height:10vh;
+    width:auto; 
+    background-color:#94A4A4;
+}
+.logo2123{
+    border-radius:10vh;/*Нахрена ему 10px?*/
+    height:8vh;
+    width:8vh; 
+    background-color:#94A4A4;
+}
+.btn123{
+    font-size:2vh;
+    /*font-size:2vh;
+    background:#7D8B8C;*/
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.btn123:hover {background: rgba(255,255,255,.2);}
+.btn123:active {
+ background: white; 
+}
+.small_btn123{
+    font-size:2vh;
+    background:#303030;
+    color: white;
+    font-weight: 700;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.imgchat{
+    height:30vh;
+    width:50vh;
+}
+.okno123{
+    background-color:black;
+}
+.video{
+    height:30vh;
+    width:50vh;
+}
+}
